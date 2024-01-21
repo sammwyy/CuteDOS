@@ -1,0 +1,26 @@
+:root {
+  /* Colors */
+  --primary: #eecbf0;
+  --secondary: #97feed;
+  --tertiary: #511cad;
+
+  /* Colors Disabled */
+  --primary-disabled: #dedede;
+  --secondary-disabled: #cac4e7;
+  --tertiary-disabled: #b79ac7;
+
+  /* Z Indexes */
+  --layer-desktop: 1;
+  --layer-taskbar: 10;
+  --layer-windows: 100;
+  --layer-wn-menu: 10000;
+  --layer-dialogs: 100000;
+}
+
+* {
+  font-family: rainyhearts;
+}
+
+body {
+  overflow: hidden;
+}

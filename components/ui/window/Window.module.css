@@ -1,0 +1,70 @@
+.wrapper,
+.wrapper-focus {
+  position: absolute;
+  width: 0px;
+  height: 0px;
+  pointer-events: auto;
+}
+
+/* Window */
+.window {
+  flex-direction: column;
+  background-color: var(--secondary-disabled);
+  gap: 4px;
+  padding: 4px;
+  border: 2px solid var(--tertiary);
+}
+
+.wrapper-focus .window {
+  background-color: var(--secondary);
+}
+
+/* Title Bar */
+.bar {
+  background-color: var(--primary-disabled);
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.5px 5px;
+  user-select: none;
+  border: 2px solid var(--tertiary);
+}
+
+.wrapper-focus .bar {
+  background-color: var(--primary);
+}
+
+/* Title Bar -- Title */
+.title {
+  font-weight: bold;
+  color: var(--tertiary);
+  width: 100%;
+}
+
+/* Title Bar -- Controls */
+.controls {
+  gap: 2px;
+  height: 100%;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.control {
+  padding: 0px;
+  margin: 0px;
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--tertiary);
+  border: 2px solid var(--tertiary);
+}
+
+/* Content */
+.content {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  border: 2px solid var(--tertiary);
+}

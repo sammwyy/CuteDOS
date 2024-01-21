@@ -1,0 +1,11 @@
+.taskbar {
+  width: 100%;
+  padding: 2px 2px;
+  background-color: #f5dbfa;
+  justify-content: space-between;
+}
+
+.section {
+  align-items: center;
+  gap: 4px;
+}
